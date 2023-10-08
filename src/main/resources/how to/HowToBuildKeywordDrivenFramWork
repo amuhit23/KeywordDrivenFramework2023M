@@ -1,0 +1,31 @@
+Step 1
+ 1. Create Maven Project
+ 
+ Step 2 
+ 	Update pom.xml file --then Maven update
+ 	
+ 	1. properties
+ 	2. dependencies
+ 	3. plug-ins
+ 	
+ Step 3
+ 	create and update appropriate package and class in the src/main/java
+ 	
+ Step 4
+ 	Build BaseTest with is-a-relationship
+ 	Close browser and application
+ 	take screenshot
+ 	assertion
+ 	
+ Step5
+ 
+ 	Build PropertiesReader in the utilities package and 
+ 	create method for each key
+ 	
+ Step 6
+ 	Develop packages for different pages (login pages), (registration pages) using PageObjectModel POM style of coding
+ 	Use PageFactoryInitElements class if possible
+ 	
+ Step 7
+ 	Develop packages for different Tests (login test), (registration test) using TesNG style of coding
+ 	Use BaseTest as a parent class
